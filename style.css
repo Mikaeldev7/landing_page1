@@ -1,0 +1,280 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: alone;
+    src: url(fonts/Alone\ Edition.otf) format('opentype');
+    
+}
+@font-face {
+    font-family:Mono ;
+    src: url(fonts/MonospaceTypewriter.ttf)format('truetype');
+}
+@font-face {
+    font-family: hack ;
+    src: url(fonts/Hack-Bold.ttf) format('truetype');
+}
+/* corpo de todo o conteudo*/
+body{
+    
+    padding: 0px;
+    background-image: radial-gradient(circle at top,#0f172a,#020617);
+    box-sizing: border-box;
+}
+/* alteração do header "Titulo"*/
+#titulo{
+    width: auto;
+    display: block;
+    padding: 10px auto 100px 300px;
+    margin:10px auto 100px auto;
+    background-image: linear-gradient(to top, #192448, #0f0e20);
+    border-radius: 20px ;
+
+  
+}
+.titulo_nome{
+    display: inline-block;
+    color: white;
+    font-family: 'hack',Arial, Helvetica, sans-serif;
+    margin:1px auto 19px 0px;
+    padding:0px 66px 10px 450px;
+    
+
+}
+
+.imagem_perfil{
+    display: inline-block;
+    width: auto;
+    height:auto;
+    margin:157px 3px 7px 27px;
+    padding: 64px 0px 0px 0px;
+    object-fit: cover;
+
+}
+
+.paragrafo_titulo{
+    display: inline-block;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0px 129px 10px 350px;
+    padding: 0px 127px 40px 115px;
+}
+
+.botao_titulo{
+    display: inline-block;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    margin:11px 382px 30px 595px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 3px 1px 3px 2px rgba(0, 0, 0, 0.432);
+    font-family: 'Mono',Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    background-image: linear-gradient(to top, #0446ac, #4b8fd2);
+}
+.botao_titulo:hover{
+    color: #44475a;
+}
+/* ateração da descrição "sobre mim "*/
+.descricao{
+    display: block;
+    width: 800px;
+    height: 140px;
+    justify-content: center;
+    justify-items: center;
+    margin:100px auto;
+    padding:10px 272px 116px 260px;
+    background-image: linear-gradient(to top, #192448, #0f0e20);
+    border-radius: 20px;
+
+    
+}
+.sobremim{
+    text-align: center;
+    color:rgb(250, 248, 248);
+    font-family: 'Mono',Arial, Helvetica, sans-serif;
+    font-style: normal;
+    margin:10px  auto 10px auto;
+    
+}
+.paragrafo_descricao{
+    text-align: center;
+    text-indent: 10px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+}
+
+/* configuração dos cards*/
+
+.tecnologia{
+    text-align: center;
+    font-family:'Mono', Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    padding: 10px 10px 10px 10px;
+    color: white;
+
+}
+
+.cards{
+    text-align: center;
+    display: block;
+    color: white;
+    padding: 20px 10px 40px 10px;
+    margin: 10px 200px 10px 200px ;
+    border-radius: 10px;
+    font-family: 'alone',Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.card1{
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    padding: 1px 51px 10px 61px;
+    margin: 10px 10px 10px 10px;
+    background-image:linear-gradient(to right,#101326,#181934,#1c1f3e,#1a1c38);
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.199);
+}
+.card1 img{
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    margin: 0px 10px 0px 10px;
+    padding: 1px 10px 0px 10px;
+}
+
+
+.card2{
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    padding: 1px 51px 10px 61px;
+    margin: 10px 10px 10px 10px;
+    background-image:linear-gradient(to right,#101326,#181934,#1c1f3e,#1a1c38);
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.199);
+
+}
+
+.card2 img{
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    margin: 0px 10px 0px 10px;
+    padding: 1px 10px 0px 10px;
+}
+
+
+.card3{
+    display: inline-block;
+    justify-content: center;
+    padding:1px 51px 10px 61px;
+    margin: 10px 10px 10px 10px;
+        background-image:linear-gradient(to right,#101326,#181934,#1c1f3e,#1a1c38);
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.199);
+
+}
+.card3 img{
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    margin: 0px 10px 0px 10px;
+    padding: 1px 10px 0px 10px;
+}
+
+
+
+
+/* configurações de projetos */
+#projetos{
+    display: inline-block;
+    justify-content: center;
+
+    
+}
+
+.titulo_projeto1{
+    text-align: center;
+    display: inline;
+    font-family: 'Mono',Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+.card_projeto1{
+    display:flexbox;
+    text-align: center;
+    font-family: 'Mono',Arial, Helvetica, sans-serif;
+    padding: 20px 10px 20px 10px;
+    margin: 40px 500px 40px 500px ;
+    background-image: linear-gradient(to right,#101326,#181934,#1c1f3e,#1a1c38);
+    border-radius:10px;
+    color: white;
+    
+
+}
+.card_projeto2{
+    display: flexbox;
+    text-align: center;
+    font-family: 'Mono',Arial, Helvetica, sans-serif;
+    padding: 20px 10px 20px 10px;
+    margin: 40px 500px 40px 500px ;
+    background-image: linear-gradient(to right,#101326,#181934,#1c1f3e,#1a1c38);
+    color: white;
+    border-radius: 10px;
+    
+
+    
+
+}
+/* decoração dos links*/
+.card_link{
+    text-decoration: none;
+    background-image: linear-gradient(to top, #0446ac, #4b8fd2);
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    box-shadow: 3px 1px 3px 2px rgba(0, 0, 0, 0.432);
+    color: white;
+    font-weight: bold;
+
+   
+    
+}
+.card_link:hover{
+    color: #44475a;
+    
+
+}
+
+/* configurações dos contatos*/
+.contatos{
+    display: block;
+    text-align: center;
+    color:white;
+    margin: 10px 260px 10px 260px;
+    padding: 20px 90px 30px 90px;
+    border-radius: 10px 50px 10px 50px;
+
+}
+
+.titulo_contato{
+    display: inline;
+    padding: 10px;
+    font-family: 'Mono',Arial, Helvetica, sans-serif;
+}
+.paragrafo_contato{
+    display: inline;
+    padding: 20px;
+    font-family: 'Mono',Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.imagen-link{
+    gap: 25px;
+    justify-content: center;
+    margin: 10px;
+}
