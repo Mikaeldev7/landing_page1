@@ -16,7 +16,7 @@
 /* corpo de todo o conteudo*/
 body{
     
-    padding: 0px;
+    padding: 0;
     background-image: radial-gradient(circle at top,#0f172a,#020617);
     box-sizing: border-box;
 }
