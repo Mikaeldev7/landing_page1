@@ -3,8 +3,24 @@
     font-family:'Alone' ;
     src: url(fonts/Alone\ Edition.otf)format('Opentype');
 }
-
+@font-face {
+    font-family: alone;
+    src: url(fonts/Alone\ Edition.otf) format('opentype');    
+}
+@font-face {
+    font-family:Mono ;
+    src: url(fonts/MonospaceTypewriter.ttf)format('truetype');
+}
+@font-face {
+    font-family: hack ;
+    src: url(fonts/Hack-Bold.ttf) format('truetype');
+}
+/* corpo de todo o conteudo*/
 *{
+    margin: 0px;
+}
+body{
+
     margin: 0;
 }
 /* CONFIGURAÇÃO DO TITULO */
