@@ -1,12 +1,9 @@
 @charset "UTF-8";
 @font-face {
-    font-family:'Alone' ;
-    src: url(fonts/Alone\ Edition.otf)format('Opentype');
+    font-family: Alone ;
+    src: url(fonts/Alone\ Edition.otf)format('opentype');
 }
-@font-face {
-    font-family: alone;
-    src: url(fonts/Alone\ Edition.otf) format('opentype');    
-}
+   
 @font-face {
     font-family:Mono ;
     src: url(fonts/MonospaceTypewriter.ttf)format('truetype');
@@ -47,16 +44,18 @@ body{
 
 }
 .titulo_nome{
-font-family: 'Alone', sans-serif;
+font-family: 'hack', sans-serif;
  justify-content: center;
  display: flex;
  margin: auto;
  padding:0px;
+ text-align: center;
 
 
 }
 .paragrafo_titulo{
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 .botao_titulo{
@@ -70,9 +69,43 @@ font-family: 'Alone', sans-serif;
     border-radius: 5px;
 }
 
-/* descrição sobre mim*/
+/* formatação sobre mim*/
 .descricao{
     text-align: center;
     margin: 10px 10px 10px 10px;
     padding: 10px 10px 10px 10px;
+}
+
+.sobre_mim{
+    font-family:'hack', Arial, Helvetica, sans-serif;
+    
+}
+.paragrafo_descricao{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*formatação de tecnologias*/
+.cards{
+    display: flex;
+    margin:3em ;
+    padding: 10px 10px 10px 10px;
+    justify-content: center;
+}
+
+.tecnologia{
+    display: inline;
+    text-align: center;
+    font-family:'hack', Arial, Helvetica, sans-serif;
+    justify-content: center;
+}
+
+.card1{
+    margin: 3em;
+}
+.card2{
+    margin: 3em;
+}
+
+.card3{
+    margin: 3em;
 }
