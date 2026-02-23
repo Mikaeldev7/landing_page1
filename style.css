@@ -12,30 +12,24 @@
     font-family: hack ;
     src: url(fonts/Hack-Bold.ttf) format('truetype');
 }
-/* corpo de todo o conteudo*/
-*{
-    margin: 0px;
-}
-body{
 
-    margin: 0;
-}
 /* CONFIGURAÇÃO DO TITULO */
 body{
     background-image: linear-gradient(to top, #0b0a18, #182147);
     color: white;
-    margin: 10rem auto;
-    padding: 5em ;
+    margin: 1rem auto;
+    padding: 1em ;
+    
 }
 
 #titulo{
-    width: 80%;
+    width: 50%;
     height: 10%;
     border: 1px  ;
-    background-image: linear-gradient(to bottom,#0e0d1e,#1f3772);
-    margin: 5rem  auto;
+    margin: 6rem  auto;
     padding: 0px 0px 0px 40px;
     border-radius: 0px 0px 10px 10px;
+    text-align: center;
 }
 .imagem_perfil{
     display: inline-block;
@@ -59,20 +53,28 @@ font-family: 'hack', sans-serif;
 
 }
 .botao_titulo{
-    display:flex;
+    display:inline-flex;
     color: white;
     justify-content: center;
-    margin :1.0em ;
-    padding:0.5em ;
+    justify-items: center;
+    margin :1em ;
+    padding:0.7em ;
     background-image: linear-gradient(to top, #0446ac, #4b8fd2);
     box-shadow: 1px;
     border-radius: 5px;
+    text-decoration: none;
+    font-family:'Alone', Arial, Helvetica, sans-serif;
+    
+}
+.botao_titulo:hover{
+    color: rgb(41, 68, 83);
+    text
 }
 
 /* formatação sobre mim*/
 .descricao{
     text-align: center;
-    margin: 10px 10px 10px 10px;
+    margin:10px 10px 10px 10px;
     padding: 10px 10px 10px 10px;
 }
 
@@ -88,7 +90,7 @@ font-family: 'hack', sans-serif;
 .cards{
     display: flex;
     margin:3em ;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 75px 10px 10px;
     justify-content: center;
 }
 
@@ -97,15 +99,56 @@ font-family: 'hack', sans-serif;
     text-align: center;
     font-family:'hack', Arial, Helvetica, sans-serif;
     justify-content: center;
+    margin: 3em;
+    justify-items: center;
+
+    
 }
 
 .card1{
-    margin: 3em;
+    display: flex;
+    margin: 7em;
+    justify-content: center;
+    background-image:linear-gradient(to top,#101326,#181934,#1c1f3e,#1a1c38);
+    padding: 0px 10px 10px 10px;
+    border-radius: 5px;
+    
 }
 .card2{
-    margin: 3em;
+    margin: 7em;
+    justify-content: center;
+    background-image:linear-gradient(to top,#101326,#181934,#1c1f3e,#1a1c38);
+    padding: 0px 10px 10px 10px;
+    border-radius: 5px;
+
+
 }
 
 .card3{
-    margin: 3em;
+    margin: 7em;
+    justify-content: center;
+    background-image:linear-gradient(to top,#101326,#181934,#1c1f3e,#1a1c38);
+    padding: 0px 10px 10px 10px;
+    border-radius: 5px;
+
+
+}
+/* configuração dos projetos*/
+#projetos{
+    display: flex;
+    text-align: center;
+    columns: 2;
+    gap: 25px;
+    justify-content: center;
+    margin: 4rem;
+}
+.card_projeto1{
+    margin: 4em;
+    padding: 10px 10px 10px 10px;
+    background-image: linear-gradient(to top, #e6e3e3 ,#3232eb);
+}
+
+.card_projeto2{
+    margin: 4em;
+    background-image: linear-gradient(to top, rgb(230, 227, 227) ,rgb(50, 50, 235));
 }
